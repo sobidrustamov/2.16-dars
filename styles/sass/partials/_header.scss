@@ -1,0 +1,10 @@
+header#main-header {
+  a {
+    transition: 0.3s all ease-in-out;
+
+    &:hover,
+    &.active {
+      color: var(--bs-orange);
+    }
+  }
+}

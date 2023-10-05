@@ -1,0 +1,9 @@
+section#need {
+  background: var(--bs-orange);
+
+  .title {
+    &::after {
+      border-bottom-color: var(--bs-white);
+    }
+  }
+}
